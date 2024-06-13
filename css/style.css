@@ -206,8 +206,7 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-size: cover;
 }
 .prt_logo_wrapper img{
-    height:50px;
-    width:50px;
+    transform: scale(0.1);
     position: fixed;
     left: 50px;
     top: 50px;
