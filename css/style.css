@@ -1387,7 +1387,6 @@ button.prt_btn.prt-btn-lodmore {
         width: 50px;
         left: 50%;
         top: 5px;
-        transform: translateX(-50%);
     }
     .prt_services_slider_wrapper {
         height: 1420px;
