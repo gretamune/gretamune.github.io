@@ -197,8 +197,8 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 .prt_home_wrapper h1{
 	position:absolute;
-	top:50%;
-	font-size:150px;
+	top:75%;
+	font-size:100px;
 	color: rgba(255, 255, 255, 0.6);
 	font-weight:bold;
 	-webkit-background-clip: text;
