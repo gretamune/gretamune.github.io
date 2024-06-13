@@ -207,8 +207,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     background-size: cover;
 }
 .prt_logo_wrapper img{
-    height:50px;
-    width: 50px;
+    height:80px;
+    width: 80px;
     position: fixed;
     left: 50px;
     top: 50px;
@@ -1383,6 +1383,8 @@ button.prt_btn.prt-btn-lodmore {
 }
 @media (max-width: 767px) {
     .prt_logo_wrapper img {
+        height: 50px;
+        width: 50px;
         left: 50%;
         top: 5px;
         transform: translateX(-50%) scale(0.1);
