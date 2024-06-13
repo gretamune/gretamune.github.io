@@ -1382,6 +1382,11 @@ button.prt_btn.prt-btn-lodmore {
 }
 }
 @media (max-width: 767px) {
+    .prt_logo_wrapper img {
+        left: 50%;
+        top: 5px;
+        transform: translateX(-50%) scale(0.1);
+    }
     .prt_services_slider_wrapper {
         height: 1420px;
     }
