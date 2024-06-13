@@ -126,7 +126,6 @@ input:focus, textarea:focus, select:focus, button:focus {
     padding-left: 10px;
     position: absolute;
     right: 0;
-    bottom: -10px;
 	color: #ffffff;
     font-weight: 500;
 }
