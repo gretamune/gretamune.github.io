@@ -138,7 +138,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 }
 /*---------- Button css End -------*/
-.prt_btn{
+.prt_about_buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Aggiunge spazio tra i bottoni */
+    flex-wrap: wrap; /* Permette ai bottoni di andare su una nuova riga se non c'è abbastanza spazio */
+}
+.prt_btn {
     height: 50px;
     line-height: 50px;
     color: #ffffff;
@@ -146,18 +153,15 @@ input:focus, textarea:focus, select:focus, button:focus {
     font-weight: 400;
     border-radius: 0px;
     padding: 0 20px;
-	min-width:140px;
+    min-width: 140px;
     outline: none;
     cursor: pointer;
     display: inline-block;
-	text-align:center;
-	text-transform:capitalize;
-	background-color: #000000;
-	border:1px solid #ffffff;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    margin: 0 10px;
     transition: all 0.3s;
 }
 .prt_btn:hover, .prt_btn:focus{
@@ -310,14 +314,36 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-top:-15px;
 }
 /*---------- About css Start -------*/
-.prt_about_wrapper{
+.prt_about_wrapper {
+    height: 100%;
     background: linear-gradient(to bottom right, #000000, rgba(0, 0, 0, 0.73));
     position: absolute;
     width: 100%;
-	top:-100%;
+    top: 0;
+    left: 0;
     z-index: 1;
     display: none;
 }
+
+.prt_about_textsection {
+    text-align: center;
+    padding: 20px 0; /* Aggiungi padding per lo spazio intorno al testo */
+}
+
+.prt_about_textsection .prt_about_textcontent {
+    padding-top: 45px;
+    max-width: 450px; /* Imposta la larghezza massima desiderata */
+    margin: 0 auto; /* Centra il contenuto */
+}
+
+.prt_about_textsection p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff; /* Assicurati che il colore del testo sia visibile sullo sfondo */
+}
+
+
+
 .prt_about_edulearn_wrapper.prt_bottompadder115 {
     padding: 0px 0px 70px 0px;
 }
@@ -346,6 +372,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	margin-bottom:10px;
 }
 .prt_about_edulearn_wrapper{
+    padding: 20px;
 	display:inline-block;
 	width:100%;
 }
@@ -1385,6 +1412,9 @@ button.prt_btn.prt-btn-lodmore {
 }
 }
 @media (max-width: 767px) {
+    .prt_about_wrapper {
+        position: fixed;
+    }
     .prt_logo_wrapper img {
         height: 50px;
         width: 50px;
