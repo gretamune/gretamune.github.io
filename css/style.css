@@ -1133,7 +1133,7 @@ button.prt_btn.prt-btn-lodmore {
 }
 /*---------- Portfolio css Start -------*/
 .prt_portfolio_wrapper{
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.68);
     position: absolute;
     right: 100%;
     width: 100%;
