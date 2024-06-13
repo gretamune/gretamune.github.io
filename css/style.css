@@ -209,7 +209,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_logo_wrapper img{
     height:80px;
     width: 80px;
-    position: fixed;
+    position: absolute;
     left: 50px;
     top: 50px;
     z-index: 2;
