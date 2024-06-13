@@ -195,7 +195,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	overflow-y:auto;
     padding: 200px 0px;
 }
-.prt_home_wrapper h3{
+.prt_home_wrapper h1{
 	position:absolute;
 	top:50%;
 	font-size:150px;
