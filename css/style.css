@@ -133,9 +133,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_heading_wrapper_2{
 	text-align:left;
 }
-.prt_heading_wrapper_2 .prt_heading{
-	margin-bottom:30px;
-}
+/*.prt_heading_wrapper_2 .prt_heading{*/
+/*	margin-bottom:30px;*/
+/*}*/
 /*---------- Button css End -------*/
 .prt_btn{
     height: 50px;
@@ -151,8 +151,8 @@ input:focus, textarea:focus, select:focus, button:focus {
     display: inline-block;
 	text-align:center;
 	text-transform:capitalize;
-	background-color:#f6483b;
-	border:1px solid #f6483b;
+	background-color: #000000;
+	border:1px solid #ffffff;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
