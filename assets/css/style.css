@@ -1014,8 +1014,13 @@ section#card_main {
     padding-bottom: 40px;
 }
 
-.circular_text_main {
+.signature_img {
     display: flex;
+    justify-content: end;
+}
+
+.circular_text_main {
+    display: none;
     justify-content: end;
 }
 
