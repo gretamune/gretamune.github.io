@@ -72,14 +72,14 @@ a {
     --dev-icons: brightness(0) saturate(100%) invert(1%) sepia(0%) saturate(7497%) hue-rotate(68deg) brightness(97%) contrast(99%);
     --uiux: #02050A;
     --uiux-hover: brightness(0) saturate(100%) invert(100%) sepia(23%) saturate(5408%) hue-rotate(72deg) brightness(95%) contrast(89%);
-    --uiux-text-hover: #c564ff;
+    --uiux-text-hover: #959595;
     --bag: brightness(0) saturate(100%) invert(2%) sepia(4%) saturate(7498%) hue-rotate(139deg) brightness(101%) contrast(99%);
     --background-hover-card: rgba(0, 0, 0, 0.7);
 }
 
 .dark-mode {
     --primary-color: #02050A;
-    --one: #b92dff;
+    --one: #757575;
     --one-background: #141C27;
     --card-background: #09101A;
     --card-text: #FFF;
@@ -92,7 +92,7 @@ a {
     --background-blur: linear-gradient(95deg, rgba(2, 5, 10, 0.40) 0%, rgba(2, 5, 10, 0.20) 100%);
     --designer-text: #A2A2A2;
     --dev-icons: brightness(0) saturate(100%) invert(86%) sepia(5%) saturate(4533%) hue-rotate(91deg) brightness(98%) contrast(85%);
-    --uiux: #da35ff;
+    --uiux: #3a3a3a;
     --uiux-hover: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(2%) hue-rotate(275deg) brightness(103%) contrast(103%);
     --uiux-text-hover: #FFF;
     --bag: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(286deg) brightness(101%) contrast(101%);
@@ -169,7 +169,7 @@ body {
     text-transform: uppercase;
     animation: stroke 3s alternate;
     stroke-width: 2;
-    stroke: #9406c3;
+    stroke: #0c0c0c;
     font-size: 100px;
     font-weight: 600;
 }
@@ -177,7 +177,7 @@ body {
 @keyframes stroke {
     0% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #9406c3;
+        stroke: #595959;
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
         stroke-width: 2;
@@ -185,17 +185,17 @@ body {
 
     70% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #9406c3;
+        stroke: #595959;
     }
 
     80% {
         fill: rgba(72, 138, 20, 0);
-        stroke: #9406c3;
+        stroke: #595959;
         stroke-width: 3;
     }
 
     100% {
-        fill: #9406c3;
+        fill: #595959;
         stroke: rgba(54, 95, 160, 0);
         stroke-dashoffset: -25%;
         stroke-dasharray: 50% 0;
@@ -222,7 +222,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #55e6a598;
+    background: rgba(133, 133, 133, 0.6);
     border-radius: inherit;
     animation: var(--bubble-sway-type) var(--bubble-sway-duration) var(--bubble-sway-delay) ease-in-out alternate infinite;
 }
@@ -479,7 +479,7 @@ body {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: #55E6A5;
+    background: #595959;
     animation: animate 25s linear infinite;
     bottom: -150px;
 }
@@ -583,7 +583,7 @@ canvas {
 /* Background Slides Animation */
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(-60deg, #55e6a5b4 50%, var(--primary-color) 50%);
+    background-image: linear-gradient(-60deg, #595959 50%, var(--primary-color) 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -633,7 +633,7 @@ canvas {
     margin-left: -20px;
     margin-top: -20px;
     border-radius: 50%;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     transition: transform 0.3s ease;
     transform-origin: center center;
     pointer-events: none;
@@ -804,11 +804,11 @@ canvas {
 }
 
 .current-tab a {
-    color: #55E6A5;
+    color: #595959;
 }
 
 .icetab:hover ul li a {
-    color: #55E6A5 !important;
+    color: #595959 !important;
 }
 
 .icetab:hover .icons2 {
@@ -816,7 +816,7 @@ canvas {
 }
 
 .current-tab .sub-menu li a {
-    color: #55E6A5 !important;
+    color: #595959 !important;
 }
 
 /*-----------------------[ 7.Side Menu CSS ]------------------------*/
@@ -939,8 +939,6 @@ section#card_main {
     bottom: 20px;
     left: 20px;
     border-radius: 0px 0px 40px 40px;
-    background: var(--background-blur);
-    backdrop-filter: blur(5px);
     text-align: center;
     transform: translate(0%, -0%);
     padding: 20px;
@@ -960,14 +958,10 @@ section#card_main {
 @keyframes ani {
     from {
         letter-spacing: 8px;
-        filter: blur(5px);
-        opacity: 0;
     }
 
     to {
         letter-spacing: 0;
-        filter: blur(0);
-        opacity: 1px;
     }
 }
 
@@ -1061,7 +1055,7 @@ section#card_main {
 
 button {
     border: 2px solid transparent;
-    background: #55E6A5;
+    background: #595959;
     font-family: 'Kodchasan';
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
@@ -1069,7 +1063,7 @@ button {
 
 button:hover {
     background: transparent;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     color: var(--button-color-hover);
     border-radius: 0px;
 }
@@ -1131,7 +1125,7 @@ button:hover {
 }
 
 .counter2 {
-    color: #55E6A5;
+    color: #595959;
     font-size: 48px;
     line-height: 64px;
 }
@@ -1152,7 +1146,7 @@ button:hover {
 
 .education::before {
     content: "";
-    color: #55E6A5;
+    color: #595959;
     border-left: 2px solid var(--card-text);
     position: absolute;
     top: 0;
@@ -1204,7 +1198,7 @@ button:hover {
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background-color: #55E6A5;
+    background-color: #595959;
 }
 
 .experience_main_text {
@@ -1262,7 +1256,7 @@ button:hover {
 }
 
 .service_box:hover .ui_ux {
-    color: #55E6A5;
+    color: #595959;
     transition: all 0.5s;
 }
 
@@ -1288,7 +1282,7 @@ button:hover {
 }
 
 .plan_box:hover {
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     transition: all 0.5s;
 }
 
@@ -1323,7 +1317,7 @@ button:hover .shopping_bag {
 }
 
 .plan_price {
-    color: #55E6A5;
+    color: #595959;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -1341,7 +1335,7 @@ button:hover .shopping_bag {
 }
 
 .help {
-    color: #55E6A5;
+    color: #595959;
 }
 
 .plan_box_sub2 {
@@ -1424,7 +1418,7 @@ button:hover .shopping_bag {
 }
 
 .success-stroke {
-    stroke: #55E6A5;
+    stroke: #595959;
 }
 
 @keyframes circle-chart-fill {
@@ -1465,11 +1459,11 @@ button:hover .shopping_bag {
 }
 
 .hard_skill_group:hover {
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
 }
 
 .hard_skill_counter {
-    color: #55E6A5;
+    color: #595959;
     text-align: center;
     font-size: 24px;
     line-height: 36px;
@@ -1673,7 +1667,7 @@ button:hover .shopping_bag {
 .prev-arrow:hover {
     width: 48px;
     height: 48px;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
@@ -1688,7 +1682,7 @@ button:hover .shopping_bag {
 .next-arrow:hover {
     width: 48px;
     height: 48px;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
 }
@@ -1870,7 +1864,7 @@ button:hover .shopping_bag {
     transform: translateY(-2.1rem);
     visibility: visible;
     font-size: 16px;
-    color: #55E6A5;
+    color: #595959;
 }
 
 .form__input {
@@ -1891,7 +1885,7 @@ button:hover .shopping_bag {
 }
 
 .form__input:focus:invalid {
-    border-bottom: 2px solid #55E6A5;
+    border-bottom: 2px solid #595959;
 }
 
 .form__label {
@@ -1908,7 +1902,7 @@ button:hover .shopping_bag {
 }
 
 .form__btn {
-    background: #55E6A5;
+    background: #595959;
     border: 2px solid transparent;
     margin-top: 30px;
     border-radius: 20px;
@@ -1925,7 +1919,7 @@ button:hover .shopping_bag {
 
 .form__btn:hover {
     background-color: transparent;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     border-radius: 0px;
 }
 
@@ -1953,7 +1947,7 @@ button:hover .shopping_bag {
 }
 
 .contact_number a:hover {
-    color: #55E6A5;
+    color: #595959;
 }
 
 iframe {
@@ -1976,13 +1970,13 @@ iframe {
 }
 
 .krishna:hover {
-    color: #55E6A5;
+    color: #595959;
 }
 
 /*-----------------------[ 18.Social Media Icons Right Side CSS ]------------------------*/
 .social_media li::before {
     content: "\2022";
-    color: #55E6A5;
+    color: #595959;
     font-weight: bolder;
     font-size: 28px;
     display: inline-block;
@@ -2035,7 +2029,6 @@ ul {
 
 .overlay {
     background: linear-gradient(131deg, rgba(9, 16, 26, 0.85) 0%, rgba(9, 16, 26, 0.60) 100%);
-    backdrop-filter: blur(5px);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -2185,7 +2178,7 @@ ul {
 
 .share-btn:hover {
     border-radius: 50%;
-    border: 2px solid #55E6A5;
+    border: 2px solid #595959;
     text-align: center;
     transition: all 0.5s ease-in-out;
 }
@@ -2368,7 +2361,7 @@ ul {
 }
 
 .line {
-    border-top: 2px solid #55E6A5;
+    border-top: 2px solid #595959;
     width: 60px;
 }
 
@@ -2494,7 +2487,7 @@ ul {
 }
 
 .warning {
-    border: 2.5px dashed #55E6A5;
+    border: 2.5px dashed #595959;
 }
 
 @keyframes spin {
@@ -2517,7 +2510,7 @@ ul {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #55E6A5;
+    background-color: #595959;
     background-clip: content-box;
 }
 
