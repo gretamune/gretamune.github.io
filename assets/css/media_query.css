@@ -3,7 +3,7 @@
         padding: 60px 0;
     }
 
-    .olivia-img {
+    .greta-img {
         border-radius: 240px 40px 40px 40px;
         max-width: 100%;
     }
@@ -25,7 +25,7 @@
         width: 390px;
     }
 
-    .olivia-img {
+    .greta-img {
         border-radius: 40px 40px 40px 40px;
         max-width: 100%;
     }
@@ -46,7 +46,7 @@
         padding: 10px 20px 13px 20px;
     }
 
-    .olivia_bio {
+    .greta_bio {
         border-radius: 40px 40px 40px 40px;
         margin-bottom: 30px;
     }
@@ -120,7 +120,7 @@
         padding: 80px 12px 40px 12px;
     }
 
-    .olivia-img {
+    .greta-img {
         max-width: 100%;
     }
 
@@ -539,12 +539,12 @@
         border-radius: 20px 20px 20px 20px;
     }
 
-    .olivia_bio {
+    .greta_bio {
         border-radius: 20px 20px 20px 20px;
         margin-bottom: 20px !important;
     }
 
-    .olivia-img {
+    .greta-img {
         border-radius: 20px 20px 20px 20px;
     }
 
@@ -560,7 +560,7 @@
         height: 36px;
     }
 
-    .olivia_bio {
+    .greta_bio {
         margin-bottom: 20px;
     }
 }
@@ -752,7 +752,7 @@
         padding: 10px;
     }
 
-    .olivia_bio {
+    .greta_bio {
         padding: 10px;
     }
 

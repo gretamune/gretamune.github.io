@@ -10,8 +10,8 @@ document.getElementsByClassName("olivia_moswa")[0];
 // olivia moswa text end
 
 // designer text
-firstText = "Designer";
-secondText = "Developer";
+firstText = "Interior";
+secondText = "Graphic";
 thridText = "Freelancer"
 intervalTime = 600;
 window.load = displayText();
