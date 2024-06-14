@@ -1016,7 +1016,7 @@ section#card_main {
 
 .signature_img {
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 .circular_text_main {
