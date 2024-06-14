@@ -722,14 +722,31 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /*---------- Contact Page css Start -------*/
 .prt_contact_wrapper {
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom right, #000000, rgba(0, 0, 0, 0.73));;
     position: absolute;
     left: 100%;
     width: 100%;
-    top: 0px;
+    height: 100%;
+    top: 0;
     z-index: 1;
     display: none;
-    padding: 80px 0px 0;
+    padding: 80px 0 0;
+}
+.prt_social_icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prt_social_icon {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 40px;
+    color: #717171;
+    transition: color 0.3s;
+}
+
+.prt_social_icon:hover {
+    color: #ffffff;
 }
 .prt_contact_box{
 	
@@ -1163,7 +1180,7 @@ button.prt_btn.prt-btn-lodmore {
 }
 /*---------- Portfolio css Start -------*/
 .prt_portfolio_wrapper{
-    background-color: rgba(0, 0, 0, 0.50);
+    background: linear-gradient(to bottom right, #000000, rgba(0, 0, 0, 0.73));
     position: absolute;
     right: 100%;
     width: 100%;
