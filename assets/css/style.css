@@ -1080,6 +1080,8 @@ button:hover {
 }
 
 .download_cv {
+    display: flex;
+    justify-content: center;
     padding: 18px 30px;
     color: var(--2, #02050A);
     text-align: center;
