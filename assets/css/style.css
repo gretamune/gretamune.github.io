@@ -1057,7 +1057,7 @@ section#card_main {
 
 button {
     border: 2px solid transparent;
-    background: #595959;
+    background: rgba(89, 89, 89, 0.32);
     font-family: 'Kodchasan';
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
