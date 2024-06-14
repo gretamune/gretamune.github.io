@@ -1017,6 +1017,8 @@ section#card_main {
 .signature_img {
     display: flex;
     justify-content: center;
+    height: 80%;
+    width: 80%;
 }
 
 .circular_text_main {
@@ -1034,7 +1036,7 @@ section#card_main {
 
 .button_circle_group {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .down_arrow_main {
