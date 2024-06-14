@@ -1215,7 +1215,7 @@ button:hover {
 }
 
 .envato_group_main {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 15px;
