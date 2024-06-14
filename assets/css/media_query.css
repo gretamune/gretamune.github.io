@@ -736,7 +736,7 @@
         width: 300px;
     }
     .imgBox {
-        height: 100%;
+        height: auto;
         width: 300px;
     }
 
@@ -906,7 +906,7 @@
     }
 
     .imgBox {
-        height: 425px;
+        height: auto;
         width: 260px;
     }
 
